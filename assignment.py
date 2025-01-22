@@ -1,9 +1,9 @@
 # Function to create a formatted string
 def format_string(name, age):
-    return f"My name is {name} and I am {age} years old."
+    return f"My name is {name} and I am {age} years old"
 
 # Test format_string
-formatted_string = format_string("John", 28)
+formatted_string = format_string("John", "25")
 print(formatted_string)  # Output: My name is John and I am 28 years old.
 
 
@@ -63,7 +63,7 @@ print(set_operations(list1, list2))  # Output: {4, 5}
 # Function to perform arithmetic operations
 def arithmetic_ops(a, b):
     return {
-        "addition": a + b,
+        "sum": a + b,  # Using "sum" as the key
         "subtraction": a - b,
         "multiplication": a * b,
         "division": a / b if b != 0 else "Undefined (division by zero)"
