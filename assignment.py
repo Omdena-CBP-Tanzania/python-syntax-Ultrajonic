@@ -64,7 +64,7 @@ print(set_operations(list1, list2))  # Output: {4, 5}
 def arithmetic_ops(a, b):
     return {
         "sum": a + b,  # Using "sum" as the key
-        "subtraction": a - b,
+        "difference": a - b,
         "multiplication": a * b,
         "division": a / b if b != 0 else "Undefined (division by zero)"
     }
