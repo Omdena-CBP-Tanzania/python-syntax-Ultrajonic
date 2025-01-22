@@ -65,8 +65,8 @@ def arithmetic_ops(a, b):
     return {
         "sum": a + b,  # Using "sum" as the key
         "difference": a - b,
-        "multiplication": a * b,
-        "division": a / b if b != 0 else "Undefined (division by zero)"
+        "product": a * b,
+        "quotient": a / b if b != 0 else "Undefined (division by zero)"
     }
 
 # Test arithmetic_ops
